@@ -1,5 +1,7 @@
 class Usuario():
-    def __init__(self) -> None:
+    def __init__(self, nombre = "", apellido = ""):
         pass
-    def Info():
-        return
+    
+    def info(self):
+        
+        return("Bienvenido")
